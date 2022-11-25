@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This project is a part of The Odin Project
+    curriculum. The main goal was to create 'something between a sketchpad and
+    an Etch-A-Sketch' using Vanilla js, HTML5, and CSS3"
+    />
+    <title>Sketchpad Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="title"><h1>SketchPad</h1></div>
+      <div class="mode">Mode: Coloring</div>
+      <div class="content">
+        <div class="board"></div>
+        <div class="buttons">
+          <button class="blackButton">Black</button>
+          <button class="erasorButton">Erasor</button>
+          <button class="grayButton">Gray</button>
+          <button class="randomButton">Random</button>
+          <button>Reset</button>
+        </div>
+        <div>
+          <input type="text" placeholder="Size of Board" value="16" />
+          <button>Set Size</button>
+        </div>
+        <div class="error">Input must be between 2 and 100</div>
+      </div>
+    </div>
+  </body>
+</html>
