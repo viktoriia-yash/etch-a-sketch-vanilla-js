@@ -18,14 +18,15 @@
   background-color: #000;
   background-image: url("/img/back.jpg");
   background-size: cover;
+  font-family: "Oswald", sans-serif;
 }
 
 .board-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 750px;
-  height: 450px;
+  width: 800px;
+  height: 500px;
   padding: 30px 50px;
   background: linear-gradient(
     135deg,
@@ -42,8 +43,8 @@ h1 {
   margin: 0;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-family: "Oswald", sans-serif;
+  letter-spacing: 15px;
+  font-size: 40px;
 }
 
 .content {
@@ -55,26 +56,29 @@ h1 {
 
 .settings {
   width: 180px;
-  height: 340px;
+  height: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-right: 20px;
 }
 
 .mode {
-  font-family: "Oswald", sans-serif;
-  letter-spacing: 3px;
-  font-weight: 300;
-  font-size: 16px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 input {
   padding: 5px 10px;
+  margin-bottom: 10px;
   width: 155px;
 }
 
 .error {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
   display: none;
 }
 
@@ -84,8 +88,13 @@ input {
 }
 
 button {
-  padding: 5px 20px;
+  padding: 10px 0;
   margin: 0 5px 5px 0;
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 2em;
+  width: 100px;
 }
 
 button:hover {

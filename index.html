@@ -20,15 +20,17 @@
         <div class="title"><h1>SketchPad</h1></div>
         <div class="content">
           <div class="settings">
-            <div class="mode">Mode: Coloring</div>
-            <input
-              type="text"
-              placeholder="Size of Board"
-              value="16"
-              onchange="changeSize(this.value)"
-            />
-            <button>Set Size</button>
-            <div class="error">Input must be between 2 and 100</div>
+            <div class="settings-one">
+              <div class="mode">Mode: Coloring</div>
+              <input
+                type="text"
+                placeholder="Size of Board"
+                value="16"
+                onchange="changeSize(this.value)"
+              />
+              <button>Set Size</button>
+              <div class="error">Input must be between 2 and 100</div>
+            </div>
             <div class="buttons">
               <button class="blackButton" onclick="changeColor('black')">
                 Black
