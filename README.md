@@ -3,7 +3,7 @@ This project is a part of "The Odin Project" curriculum. The main goal was "to b
 
 <ul>
 <li>Vanilla js, HTML5 and CSS3</li>
-<li>GitHub Pages for hosting</li>
+<li>Netlify for hosting</li>
 <li>Background image by <a href="https://unsplash.com/photos/aYEUXnVG8tg">Hamish Weir</a>.</li>
 </ul>
 
