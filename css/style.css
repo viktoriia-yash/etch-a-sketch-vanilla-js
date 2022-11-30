@@ -119,11 +119,12 @@ button:hover {
 }
 
 .credit {
-  letter-spacing: 3px;
+  margin-top: 5px;
   font-size: 13px;
+  color: #fff;
+  letter-spacing: 3px;
 }
 
 .credit > a {
   color: #fff;
-  text-decoration: none;
 }
