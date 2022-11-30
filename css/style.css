@@ -117,3 +117,13 @@ button:hover {
 .board:hover {
   cursor: pointer;
 }
+
+.credit {
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+.credit > a {
+  color: #fff;
+  text-decoration: none;
+}
