@@ -6,5 +6,5 @@ This project is a part of "The Odin Project" curriculum. The main goal was "to b
 2. Netlify for hosting
 3. <a href="https://unsplash.com/photos/aYEUXnVG8tg">Background image</a> by Hamish Weir
 4. Google Fonts & Google Icons
-###Main Links:
+### Main Links:
 1. <a href="https://sweet-rugelach-791a62.netlify.app/">Live Preview</a> on Netlify
